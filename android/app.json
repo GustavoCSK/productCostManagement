@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Gestão de Custos",
+    "slug": "gestao-custos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.productcostmanagement.app"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permitir selecionar a imagem de um produto."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+data/
+*.db
+*.db-shm
+*.db-wal
+web/node_modules/
+web/dist/
+android/node_modules/
+android/dist/
+android/.expo/
+android/.expo-shared/
+android/android/
+android/ios/
